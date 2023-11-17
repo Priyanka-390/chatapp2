@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Primary Meta Tags -->
+    <title>Have your best chat</title>
+    <meta name="title" content="Have your best chat" />
+    <meta name="description" content="Fast, easy & unlimited team chat." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:description" content="Fast, easy & unlimited team chat." />
+    <meta property="og:image" content="https://thumbs2.imgbox.com/fa/82/9JjVwMY6_t.png" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:description" content="Fast, easy & unlimited team chat." />
+    <meta property="twitter:image" content="https://thumbs2.imgbox.com/fa/82/9JjVwMY6_t.png" />
+    
+    <!-- Meta Tags Generated with https://metatags.io -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatapp2</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="overflow-hidden">
+    <!--====================== pre-loader =================-->
+    <div id="preloder"
+        class="animation h-full w-full bg-blue-600 fixed flex flex-col items-center justify-center z-30 duration-300 cursor-pointer">
+        <p class="text-white font-poppins lg:text-6xl md:text-5xl text-3xl font-semibold"><a href="">chat<span
+                    class="font-[275]">app</span></a></p>
+        <p class="font-poppins lg:text-7xl md:text-5xl text-4xl text-white">loading.....</p>
+    </div>
+
+    <!--===================== back to top ================-->
+    <button class="back-to-btn pos-fix1 bg-blue-600 " id="backtotop" onclick="window.scrollTo(0,0)"><span><svg
+                width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.0835 17.5V34.1667H14.9168V17.5H0.333496L17.0002 0.833374L33.6668 17.5H19.0835Z"
+                    fill="white" />
+            </svg>
+        </span></button>
+    <!-- =====================section1================== -->
+    <header class="min-h-screen bg-blue-600 flex justify-center items-center flex-col">
+        <!-- ================navbar=========== -->
+        <div class="container max-w-[1140px] mx-auto px-3">
+            <nav class="py-9">
+                <div class="flex justify-between items-center">
+                    <div>
+                        <p class="text-white font-poppins text-[26px] font-semibold"><a href="">chat<span
+                                    class="font-[275]">app</span></a></p>
+                    </div>
+                    <div>
+                        <ul class="flex items-center gap-8 mobile_view justify-center" id="navbar">
+                            <li><a href="#first" onclick="openNav()"
+                                    class="text-white leading-normal relative nav-line text-sm font-roboto font-medium">Proudct</a>
+                            </li>
+                            <li><a href="#second-sec" onclick="openNav()"
+                                    class="text-white leading-normal text-sm font-roboto nav-line relative font-medium">Services</a>
+                            </li>
+                            <li><a href="#third-sec" onclick="openNav()"
+                                    class="text-white leading-normal text-sm font-roboto nav-line relative font-medium">Contact</a>
+                            </li>
+                            <li><a href="#footer" onclick="openNav()"
+                                    class="text-white leading-normal text-sm font-roboto nav-line relative font-medium">Log
+                                    In</a></li>
+                            <li><button
+                                    class="text-white text-sm font-roboto hover:bg-blue-600 hover:border-white hover:border-solid border-transparent transition-all duration-500 border-[1px] font-medium bg-white/[0.2] py-3 px-6 rounded-[210px]">Try
+                                    It Free</button></li>
+                        </ul>
+                        <div id="menubtn-icon" onclick="openNav()" class=" z-index-4 relative pe-2 pt-1">
+                            <div class="line1"></div>
+                            <div class="line2 my-2"></div>
+                            <div class="line3"></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--================== herosection============= -->
+        <section class="flex-grow pb-32 pt-7" id="first">
+            <div class="container max-w-[1140px] mx-auto px-3">
+                <div class="flex-row flex flex-wrap items-center -mx-3">
+                    <div class="w-full lg:w-1/2 sm:px-3 px-0">
+                        <h1 class="text-white font-poppins lg:text-[75px] md:text-[60px] text-[40px] font-semibold">Have
+                            your
+                            best chat</h1>
+                        <p class="text-white font-roboto lg:text-[21px] text-16 font-normal leading-normal pt-5">Fast,
+                            easy &
+                            unlimited
+                            team chat.</p>
+                        <div class="flex lg:pt-14 pt-5 mt-1">
+                            <button
+                                class="text-blue-600 font-roboto hover:bg-transparent hover:text-white hover:border-solid hover:border-white hover:border-[1px] whitespace-nowrap hover: border- [1px]  border-[1px] border-transparent text-base font-medium rounded-[60px] duration-500 transition-all bg-white py-4 lg:px-12 px-8">Try
+                                it Free</button>
+                            <button
+                                class="border-solid hover:bg-white  hover:text-blue-600  border-white border-[1px] rounded-[60px] py-4 lg:px-11 px-8 whitespace-nowrap text-white font-roboto text-base font-medium lg:ml-9 ml-3 transition-all duration-500">Get
+                                a Demo</button>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2 lg:pt-0 pt-9 px-3">
+                        <img src="./assets/images/hero-section-img.png" alt="hero-section-img" class="w-full">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!--===================== section2================== -->
+    <section id="second-sec">
+        <div class="container max-w-[1140px] mx-auto px-3">
+            <div class="flex justify-center items-center lg:py-20 py-10 flex-col">
+                <h2
+                    class="text-[#2B353E] text-center font-poppins lg:text-[45px] text-[35px] pt-3 font-medium leading-[58px]">
+                    Instant Team Chats</h2>
+                <p
+                    class="text-[#2B353E]/[0.7] max-w-[566px] font-roboto text-lg font-normal leading-[29px] text-center lg:pt-7 pt-3">
+                    Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                    massa. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                    ultricies nec, pellentesque
+                    eu, pretium quis, sem. Nulla consequat massa.</p>
+                <img src="./assets/images/sec-sec-img.jpg" alt="sec-sec-img" class="w-[100%] lg:pt-14 pt-10">
+            </div>
+        </div>
+    </section>
+
+    <!--====================== section3================= -->
+    <section class="bg-[#E9F1FF] overflow-hidden" id="third-sec">
+        <div class="lg:pr-3 px-3 py-10 sm:py-20 lg:py-24 ">
+            <div class="grid lg:grid-cols-2 items-center">
+                <img class=" mt-10 lg:mt-0 -translate-x-[8%]" src="./assets/images/third-sec-img.png"
+                    alt="third-sec-img">
+                <div class="flex flex-col order-1 max-w-lg lg:ml-4">
+                    <h2
+                        class="text-3xl sm:text-[45px] font-poppins font-medium text-[#2B353E] leading-[50px] sm:leading-[57px]">
+                        Perfect Solution for Small Businesses</h2>
+                    <p class="font-roboto text-[17px] lg:text-[21px] text-[#646E78] font-normal pt-6 sm:pt-[30px]">
+                        Pricing plans that
+                        fit
+                        like a glove.</p>
+                    <div class="flex  sm:flex-row pt-9 sm:pt-11 lg:pt-[60px] lg:gap-9 gap-5">
+                        <div class="sm:border-b border-[#CCD5E2]">
+                            <button
+                                class="bg-[#1E71FF]  text-white py-[14px] lg:px-11 px-6 rounded-full border border-[#1E71FF] font-roboto font-medium text-[17px] sm:mb-12 md:mb-16 lg:mb-20 duration-500 hover:bg-transparent hover:text-[#1E71FF] "
+                                type="button">Try it Free</button>
+                        </div>
+                        <div>
+                            <button
+                                class="bg-transparent text-[#1E71FF] py-[14px] lg:px-[41px] px-6 rounded-full border border-[#1E71FF] font-roboto font-medium text-[17px] duration-500 hover:bg-[#1E71FF] hover:text-white"
+                                type="button">Get a Demo</button>
+                        </div>
+                    </div>
+                    <div class="flex flex-col sm:flex-row gap-6 pt-10">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="132" height="20" viewBox="0 0 132 20"
+                                fill="none">
+                                <path
+                                    d="M10.9101 0.80841L13.1545 5.35469C13.3105 5.67089 13.6123 5.88999 13.9614 5.94061L18.9801 6.66969C19.8593 6.7975 20.21 7.87722 19.5741 8.49675L15.9426 12.0355C15.6902 12.2816 15.5748 12.6364 15.6346 12.9837L16.4917 17.9806C16.642 18.8558 15.723 19.523 14.9368 19.1101L10.4482 16.7511C10.136 16.5872 9.76285 16.5872 9.45071 16.7511L4.96203 19.1101C4.17587 19.5234 3.25688 18.8558 3.40714 17.9806L4.26428 12.9837C4.32406 12.6364 4.20866 12.2816 3.95629 12.0355L0.324755 8.49675C-0.311148 7.87681 0.0395948 6.79709 0.918735 6.66969L5.93747 5.94061C6.28656 5.88999 6.58832 5.67089 6.74439 5.35469L8.98873 0.80841C9.3814 0.0121055 10.5171 0.0121055 10.9101 0.80841Z"
+                                    fill="#FBA229" />
+                                <path
+                                    d="M38.8086 0.80841L41.0529 5.35469C41.209 5.67089 41.5107 5.88999 41.8598 5.94061L46.8786 6.66969C47.7577 6.7975 48.1084 7.87722 47.4725 8.49675L43.841 12.0355C43.5886 12.2816 43.4732 12.6364 43.533 12.9837L44.3902 17.9806C44.5404 18.8558 43.6214 19.523 42.8353 19.1101L38.3466 16.7511C38.0344 16.5872 37.6613 16.5872 37.3492 16.7511L32.8605 19.1101C32.0743 19.5234 31.1553 18.8558 31.3056 17.9806L32.1627 12.9837C32.2225 12.6364 32.1071 12.2816 31.8547 12.0355L28.2232 8.49675C27.5873 7.87681 27.938 6.79709 28.8172 6.66969L33.8359 5.94061C34.185 5.88999 34.4868 5.67089 34.6428 5.35469L36.8872 0.80841C37.2798 0.0121055 38.4155 0.0121055 38.8086 0.80841Z"
+                                    fill="#FBA229" />
+                                <path
+                                    d="M66.708 0.80841L68.9523 5.35469C69.1084 5.67089 69.4102 5.88999 69.7592 5.94061L74.778 6.66969C75.6571 6.7975 76.0079 7.87722 75.372 8.49675L71.7404 12.0355C71.4881 12.2816 71.3727 12.6364 71.4324 12.9837L72.2896 17.9806C72.4398 18.8558 71.5208 19.523 70.7347 19.1101L66.246 16.7511C65.9339 16.5872 65.5607 16.5872 65.2486 16.7511L60.7599 19.1101C59.9737 19.5234 59.0547 18.8558 59.205 17.9806L60.0621 12.9837C60.1219 12.6364 60.0065 12.2816 59.7541 12.0355L56.1226 8.49675C55.4867 7.87681 55.8374 6.79709 56.7166 6.66969L61.7353 5.94061C62.0844 5.88999 62.3862 5.67089 62.5422 5.35469L64.7866 0.80841C65.1792 0.0121055 66.3149 0.0121055 66.708 0.80841Z"
+                                    fill="#FBA229" />
+                                <path
+                                    d="M94.6064 0.80841L96.8508 5.35469C97.0068 5.67089 97.3086 5.88999 97.6577 5.94061L102.676 6.66969C103.556 6.7975 103.906 7.87722 103.27 8.49675L99.6389 12.0355C99.3865 12.2816 99.2711 12.6364 99.3309 12.9837L100.188 17.9806C100.338 18.8558 99.4193 19.523 98.6331 19.1101L94.1444 16.7511C93.8323 16.5872 93.4591 16.5872 93.147 16.7511L88.6583 19.1101C87.8722 19.5234 86.9532 18.8558 87.1034 17.9806L87.9606 12.9837C88.0203 12.6364 87.905 12.2816 87.6526 12.0355L84.021 8.49675C83.3851 7.87681 83.7359 6.79709 84.615 6.66969L89.6338 5.94061C89.9828 5.88999 90.2846 5.67089 90.4407 5.35469L92.685 0.80841C93.0777 0.0121055 94.2133 0.0121055 94.6064 0.80841Z"
+                                    fill="#FBA229" />
+                                <path
+                                    d="M122.506 0.80841L124.75 5.35469C124.906 5.67089 125.208 5.88999 125.557 5.94061L130.576 6.66969C131.455 6.7975 131.806 7.87722 131.17 8.49675L127.538 12.0355C127.286 12.2816 127.171 12.6364 127.23 12.9837L128.087 17.9806C128.238 18.8558 127.319 19.523 126.533 19.1101L122.044 16.7511C121.732 16.5872 121.359 16.5872 121.046 16.7511L116.558 19.1101C115.772 19.5234 114.853 18.8558 115.003 17.9806L115.86 12.9837C115.92 12.6364 115.804 12.2816 115.552 12.0355L111.92 8.49675C111.285 7.87681 111.635 6.79709 112.514 6.66969L117.533 5.94061C117.882 5.88999 118.184 5.67089 118.34 5.35469L120.584 0.80841C120.977 0.0121055 122.113 0.0121055 122.506 0.80841Z"
+                                    fill="#FBA229" />
+                            </svg></span>
+                        <p class="text-lg font-roboto font-normal text-[#646E78] max-w-[274px]"> <span
+                                class="font-bold">5,200 businesses </span>use ChatApp and they rate it as
+                            5-stars.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--===================== section4=================== -->
+    <footer id="footer">
+        <div class="container max-w-[1140px] mx-auto px-3">
+            <div class="flex-row lg:py-20 py-14 flex flex-wrap -mx-3">
+                <div class=" lg:w-1/4 w-full px-3">
+                    <h2 class="text-[#1E71FF] text-[26px] font-poppins font-semibold">chat<span
+                            class="font-[275]">app</span>
+                    </h2>
+                    <p class="text-[#2B353EB2] font-roboto text-[15px] font-normal max-w-[168px] pt-4">The last team
+                        chat you
+                        will ever need.</p>
+                </div>
+                <div class="lg:w-3/4 w-full px-3  pb-5 md:pt-0 pt-4">
+                    <div class="flex-row flex flex-wrap -mx-3">
+                        <div class="md:w-1/4 w-1/2 px-3 lg:pt-0 pt-6">
+                            <ul>
+                                <li class="text-[#2B353E] font-poppins text-lg font-normal pb-5">Help</li>
+                                <li><a href=""
+                                        class="text-[#2B353EB2] hover:text-[#2B353E] transition-all duration-500 font-roboto text-[13px] font-normal">Support</a>
+                                </li>
+                                <li><a href=""
+                                        class="text-[#2B353EB2] font-roboto hover:text-[#2B353E] transition-all duration-500 text-[13px] pt-3 font-normal">Knowledgebase</a>
+                                </li>
+                                <li><a href=""
+                                        class="text-[#2B353EB2] font-roboto hover:text-[#2B353E] transition-all duration-500 text-[13px] pt-3 font-normal">Tutorials</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="md:w-1/4 w-1/2 px-3 lg:pt-0 pt-6">
+                            <ul>
+                                <li class="text-[#2B353E] font-poppins text-lg font-normal pb-5">Features</li>
+                                <li><a href=""
+                                        class="text-[#2B353EB2] hover:text-[#2B353E] transition-all duration-500 font-roboto text-[13px] font-normal">Screen
+                                        Sharing</a></li>
+                                <li><a href=""
+                                        class="text-[#2B353EB2] hover:text-[#2B353E] transition-all duration-500 font-roboto text-[13px] pt-3 font-normal">iOS
+                                        &
+                                        Android Apps</a>
+                                </li>
+                                <li><a href=""
+                                        class="text-[#2B353EB2] hover:text-[#2B353E] transition-all duration-500 font-roboto text-[13px] pt-3 font-normal">File
+                                        Sharing</a>
+                                </li>
+                                <li><a href=""
+                                        class="text-[#2B353EB2] hover:text-[#2B353E] transition-all duration-500 font-roboto text-[13px] pt-3 font-normal">User
+                                        Management</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="md:w-1/4 w-1/2 px-3 lg:pt-0 pt-6">
+                            <ul>
+                                <li class="text-[#2B353E] font-poppins text-lg font-normal pb-5">Company</li>
+                                <li><a href=""
+                                        class="text-[#2B353EB2] hover:text-[#2B353E] transition-all duration-500 font-roboto text-[13px] font-normal">About
+                                        Us</a></li>
+                                <li><a href=""
+                                        class="text-[#2B353EB2] hover:text-[#2B353E] transition-all duration-500 font-roboto text-[13px] pt-3 font-normal">Careers</a>
+                                </li>
+                                <li><a href=""
+                                        class="text-[#2B353EB2] hover:text-[#2B353E] transition-all duration-500 font-roboto text-[13px] pt-3 font-normal">Contact
+                                        Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="md:w-1/4 w-1/2 px-3 lg:pt-0 pt-6">
+                            <ul>
+                                <li class="text-[#2B353E] font-poppins text-lg font-normal pb-5">Contact Us</li>
+                                <li><a href=""
+                                        class="text-[#2B353EB2] hover:text-[#2B353E] transition-all duration-500 font-roboto text-[13px] font-normal">info@chatapp.com</a>
+                                </li>
+                                <li><a href=""
+                                        class="text-[#2B353EB2] hover:text-[#2B353E] transition-all duration-500 font-roboto text-[13px] pt-3 font-normal">1-800-200-300</a>
+                                </li>
+                                <li><a href=""
+                                        class="text-[#2B353EB2] hover:text-[#2B353E] lg:max-w-[168px] transition-all duration-500 font-roboto text-[13px] pt-3 font-normal">3500
+                                        Deer
+                                        Creek Rd
+                                        Palo Alto, CA</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <a href="" class="text-[#2B353EB2] pb-8 font-roboto text-[13px] pt-3 font-normal">© Copyright ChatApp
+                Inc.</a>
+        </div>
+    </footer>
+    <script src="./assets/js/doc.js"></script>
+</body>
+
+
+</html>
